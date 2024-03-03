@@ -11,7 +11,7 @@ let emailApi = new ElasticEmail.EmailsApi();
 
 app.use(express.json());
 app.get("/", (req, res) => {
-  res.send("Welcome to Email SEnd API");
+  res.send("Welcome to Email SEnd API and Netlify ");
 });
 
 app.get("/send", (req, res) => {
